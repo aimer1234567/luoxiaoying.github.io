@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,6 +69,8 @@
             margin: 0 auto;
             margin-top: 20px;
             border-radius: 8px;
+            max-width: 100%;
+            height: auto;
         }
 
         /* 网页底部样式 */
@@ -76,8 +79,21 @@
             text-align: center;
             padding: 20px 0;
         }
+
+        /* 添加新的样式 */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section {
+            width: 90%;
+            max-width: 800px;
+        }
     </style>
 </head>
+
 <body>
 <header>
     <!-- 修改了大标题的标签，添加了导航栏 -->
@@ -103,40 +119,66 @@
     <section id="experience">
         <h2>自然风光集</h2>
         <!-- 统一图片宽度，添加图片描述文字 -->
-        <img src="img/IMG_0153.JPG" alt="自然风光1" width="40%">
-        <p>自然风光1</p>
-        <img src="img/1.jpg" alt="自然风光2" width="40%">
-        <p>自然风光2</p>
-        <img src="img/2.JPG" alt="自然风光3" width="40%">
-        <p>自然风光3</p>
-        <img src="img/3.jpg" alt="自然风光4" width="40%">
-        <p>自然风光4</p>
+        <div>
+            <img src="img/IMG_0153.JPG" alt="自然风光1">
+            <p>自然风光1</p>
+        </div>
+        <div>
+            <img src="img/1.jpg" alt="自然风光2">
+            <p>自然风光2</p>
+        </div>
+        <div>
+            <img src="img/2.JPG" alt="自然风光3">
+            <p>自然风光3</p>
+        </div>
+        <div>
+            <img src="img/3.jpg" alt="自然风光4">
+            <p>自然风光4</p>
+        </div>
     </section>
 
     <hr>
 
     <section id="education">
         <h2>城市角落集</h2>
-        <img src="img/4.jpg" alt="城市角落1" width="40%">
-        <p>城市角落1</p>
-        <img src="img/5.JPG" alt="城市角落2" width="40%">
-        <p>城市角落2</p>
-        <img src="img/11.jpg" alt="城市角落3" width="40%">
-        <p>城市角落3</p>
-        <img src="img/7.png" alt="城市角落4" width="40%">
-        <p>城市角落4</p>
-    </section><hr>
+        <div>
+            <img src="img/4.jpg" alt="城市角落1">
+            <p>城市角落1</p>
+        </div>
+        <div>
+            <img src="img/5.JPG" alt="城市角落2">
+            <p>城市角落2</p>
+        </div>
+        <div>
+            <img src="img/11.jpg" alt="城市角落3">
+            <p>城市角落3</p>
+        </div>
+        <div>
+            <img src="img/7.png" alt="城市角落4">
+            <p>城市角落4</p>
+        </div>
+    </section>
+
+    <hr>
 
     <section id="skills">
         <h2>人文集</h2>
-        <img src="img/8.jpg" alt="人文1" width="40%">
-        <p>人文1</p>
-        <img src="img/IMG_6323.jpg" alt="人文2" width="40%">
-        <p>人文2</p>
-        <img src="img/9.jpg" alt="人文3" width="40%">
-        <p>人文3</p>
-        <img src="img/10.jpg" alt="人文4" width="40%">
-        <p>人文4</p>
+        <div>
+            <img src="img/8.jpg" alt="人文1">
+            <p>人文1</p>
+        </div>
+        <div>
+            <img src="img/IMG_6323.jpg" alt="人文2">
+            <p>人文2</p>
+        </div>
+        <div>
+            <img src="img/9.jpg" alt="人文3">
+            <p>人文3</p>
+        </div>
+        <div>
+            <img src="img/10.jpg" alt="人文4">
+            <p>人文4</p>
+        </div>
     </section>
 </main>
 
@@ -144,4 +186,5 @@
     <p>© 2023 My Personal Website</p>
 </footer>
 </body>
+
 </html>
