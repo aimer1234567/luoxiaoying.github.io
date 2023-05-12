@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 删除了标题标签中的<center> -->
+    <title>我的个人摄影主页网站</title>
+    <style>
+        /* 添加全局样式 */
+        body {
+            font-family: 得意黑, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 大标题样式 */
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            margin-top: 40px;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #f5f5f5;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 24px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav li a:hover {
+            color: red;
+        }
+
+        /* 小标题样式 */
+        h2 {
+            text-align: center;
+            margin-top: 80px;
+            font-size: 36px;
+        }
+
+        /* 段落样式 */
+        p {
+            text-align: center;
+            font-size: 24px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        /* 图片样式 */
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        /* 网页底部样式 */
+        footer {
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <!-- 修改了大标题的标签，添加了导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#about">简介</a></li>
+            <li><a href="#experience">自然风光集</a></li>
+            <li><a href="#education">城市角落集</a></li>
+            <li><a href="#skills">人文集</a></li>
+        </ul>
+    </nav>
+    <h1>我的个人摄影主页网站</h1>
+</header>
+
+
+<main>
+    <section id="about">
+        <h2>简介</h2>
+        <p>我是罗骁颖，拍摄时长两年半，我的设备是一台佳能M6mark2。下面是我的摄影作品，分为了自然风光集，城市角落集，人文集。</p>
+        <p>如果你也和我一样喜欢摄影那么我觉得这件事<span style="font-size: 32px; color: red">泰酷辣!!!</span></p>
+    </section>
+
+    <section id="experience">
+        <h2>自然风光集</h2>
+        <!-- 统一图片宽度，添加图片描述文字 -->
+        <img src="img/IMG_0153.JPG" alt="自然风光1" width="40%">
+        <p>自然风光1</p>
+        <img src="img/1.jpg" alt="自然风光2" width="40%">
+        <p>自然风光2</p>
+        <img src="img/2.JPG" alt="自然风光3" width="40%">
+        <p>自然风光3</p>
+        <img src="img/3.jpg" alt="自然风光4" width="40%">
+        <p>自然风光4</p>
+    </section>
+
+    <hr>
+
+    <section id="education">
+        <h2>城市角落集</h2>
+        <img src="img/4.jpg" alt="城市角落1" width="40%">
+        <p>城市角落1</p>
+        <img src="img/5.JPG" alt="城市角落2" width="40%">
+        <p>城市角落2</p>
+        <img src="img/11.jpg" alt="城市角落3" width="40%">
+        <p>城市角落3</p>
+        <img src="img/7.png" alt="城市角落4" width="40%">
+        <p>城市角落4</p>
+    </section><hr>
+
+    <section id="skills">
+        <h2>人文集</h2>
+        <img src="img/8.jpg" alt="人文1" width="40%">
+        <p>人文1</p>
+        <img src="img/IMG_6323.jpg" alt="人文2" width="40%">
+        <p>人文2</p>
+        <img src="img/9.jpg" alt="人文3" width="40%">
+        <p>人文3</p>
+        <img src="img/10.jpg" alt="人文4" width="40%">
+        <p>人文4</p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2023 My Personal Website</p>
+</footer>
+</body>
+</html>
